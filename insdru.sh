@@ -12,17 +12,17 @@ default="ctools views token pathauto devel zen"
 
 echo "start drupal download"
 
-#drush dl drupal --drupal-project-rename=$dbName
+drush dl drupal --drupal-project-rename=$dbName
 
 echo "download completed"
 echo "installing drupal"
 
 cd $dbName
-#cp sites/default/default.settings.php sites/default/settings.php
+cp sites/default/default.settings.php sites/default/settings.php
 chmod 666 sites/default/settings.php
 chmod a+w sites/default
 
-#drush site-install standard --db-url=mysql://$MyUSER:$MyPASS@localhost/$dbName --site-name=$dbName
+drush site-install standard --db-url=mysql://$MyUSER:$MyPASS@localhost/$dbName --site-name=$dbName
 
 chmod 755 sites/default
 chmod 644 sites/default/settings.php
