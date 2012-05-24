@@ -10,6 +10,7 @@ default="ctools views token pathauto devel zen"
 
 #mysql -u $MyUSER -h $HostName -p$MyPASS -Bse "CREATE DATABASE $dbName CHARACTER SET $charSet COLLATE $collate;"
 
+cd ..
 echo "start drupal download"
 
 drush dl drupal --drupal-project-rename=$dbName
