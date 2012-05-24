@@ -10,7 +10,7 @@ open terminal and go to insdru folder which is residing in root folder (cd /var/
   [db-user] - compulsory - database username
   [db-pass] - compulsory - database password
   [default] - optional - if given ctools views pathauto zen token devel will be enabled by default
-  [optional modules to enable] - list of modules you want to enabled
+  [optional modules to enable] - list of modules you want to enable
 
   eg
   ./insdru.sh firstsite root password default date admin_menu
