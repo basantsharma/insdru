@@ -20,3 +20,5 @@ open terminal and go to insdru folder which is residing in root folder (cd /var/
 
 
   NOTE : Prompt for confirmition are automatically answered yes, so that you don't need to watch the terminal while it is installed, and even no need to create database for it, it will be created by this script
+
+  CAUTION : Never use a [site-name] same as an already existing database name otherwise it will be overwritten.
