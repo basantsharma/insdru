@@ -1,3 +1,6 @@
+
+Prerequisites - Drush
+
 copy insdru.sh to root(www) folder of your server.
 make it executable
 open terminal and go to root folder and type following command
@@ -14,3 +17,6 @@ open terminal and go to root folder and type following command
   ./insdru.sh firstsite root password date admin_menu
   ./insdru.sh firstsite root password default
   ./insdru.sh firstsite root password
+
+
+  NOTE : Prompt for confirmition are automatically answered yes, so that you don't need to watch the terminal while it is installed.
