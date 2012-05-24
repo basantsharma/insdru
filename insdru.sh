@@ -30,7 +30,10 @@ echo "drupal installation completed"
 chmod 755 sites/default
 chmod 644 sites/default/settings.php
 
-if [ $4 = "default" ]; then
+echo "installing modules"
+if [ "$4" = "default" ]
+ then
+    echo "installing default modules"
     drush dl $default
     yes | drush en ctools views views_ui token pathauto devel
     for ((  i = 0 ;  i < 4;  i++  ))
