@@ -8,6 +8,8 @@ charSet="utf8"
 collate="utf8_general_ci"
 default="ctools views token pathauto devel zen"
 
+#mysql -u $MyUSER -h $HostName -p$MyPASS -Bse "CREATE DATABASE $dbName CHARACTER SET $charSet COLLATE $collate;"
+
 echo "start drupal download"
 
 drush dl drupal --drupal-project-rename=$dbName
